@@ -32,7 +32,6 @@ export default function App() {
     <View style={styles.container}>
       <Header />
       <View style={ styles.content }>
-        {/* to form */}
         <View style={ styles.list }>
           <AddTodoItem submitHandler={submitHandler}/>
           <FlatList 
